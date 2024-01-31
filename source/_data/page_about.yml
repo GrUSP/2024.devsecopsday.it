@@ -1,7 +1,7 @@
 intro:
   main_title: "About"
   content_1:
-    "Il devsecopsday è orgogliosamente organizzato da GrUSP. <br>
+    "Il devsecopsday è orgogliosamente organizzato da <a href='https://www.grusp.org/' target='_blank'>GrUSP</a>. 
      GrUSP è una community fondata nel 2003 come PHP User Group, che è diventata il punto di riferimento in Italia per le buone pratiche in tutti i campi dello sviluppo web.<br>
      Da allora abbiamo organizzato moltissime conferenze, perseguendo sempre l'obiettivo di creare opportunità per le persone di incontrarsi, imparare, condividere e crescere insieme."
   content_2:
@@ -10,9 +10,8 @@ intro:
     La diversità e l'inclusione sono sempre state al centro delle nostre attività.
     Applichiamo un codice di condotta da molti anni e abbiamo programmi di borse di studio (scholarships) per ciascuna delle nostre conferenze."
 more:
-  title: "devsecopsday"
+  # title: "devsecopsday"
   content_1:
-    ""
   content_2:
 # past_edition:
 #  title: "Guarda l'ultima edizione di Incontro DevOps Italia"

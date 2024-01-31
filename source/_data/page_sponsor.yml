@@ -6,11 +6,11 @@ intro:
   content_3: ""
 block_2:
   title: "Opzioni di sponsorship"
-  slogan: "Ottieni il massimo dalla tua partecipazione"
-  subtitle_1: "Hai idee o suggerimenti?"
-  content_1: "Contattaci per organizzare le opzioni più adatta alle tue esigenze o per condividere una brillante idea di sponsorizzazione."
-  subtitle_2: "Pacchetti di sponsorizzazione"
-  content_2: "Puoi scegliere tra uno dei seguenti pacchetti di sponsorizzazione. Scrivici se hai bisogno di ulteriori informazioni."
+  slogan: "<font color=white>Ottieni il massimo dalla tua partecipazione</font>"
+  subtitle_1: "<font color=white>Hai idee o suggerimenti?</font>"
+  content_1: "<font color=white>Contattaci per organizzare le opzioni più adatta alle tue esigenze o per condividere una brillante idea di sponsorizzazione.</font>"
+  subtitle_2: "<font color=white>Pacchetti di sponsorizzazione</font>"
+  content_2: "<font color=white>Puoi scegliere tra uno dei seguenti pacchetti di sponsorizzazione. Scrivici se hai bisogno di ulteriori informazioni.</font>"
 # level description blocks:
 #   If the numbered description is not there, the relevant section will not be displayed
 #   Every block has its own background color based on the block number

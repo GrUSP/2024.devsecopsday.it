@@ -23,12 +23,12 @@ conference:
   contact_email: "devsecopsday@grusp.org"
   # these are for the hero section
   title_pre: ""
-  title: "devsecopsday 2023"
+  title: "devsecopsday 2024"
   city: "Bologna"
-  date: 2023-10-13T09:00+02:00
+  date: 2024-10-11T09:00+02:00
   # Use the next field to override the date in the hero
   hero_date_text:
-  countdown_visible: false
+  countdown_visible: true
   countdown_days: "giorni"
   countdown_hours: "ore"
   countdown_minutes: "minuti"
@@ -46,19 +46,19 @@ conference:
   update_link_url: "https://google.com/"
   update_link_label: "link to google, just for the demo"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: false
+  cfp_open: true
   cfp_readmore_label: "Continua a leggere"
   cfp_open_label: "Proponi un talk entro il"
   cfp_open_title: "Call For Papers aperta!"
-  cfp_deadline: 2023-06-25T23:59+02:00
+  cfp_deadline: 2024-06-02T23:59+02:00
   cfp_register_label: "Invia la tua proposta"
   cfp_register_aria_label: "Inviaci ora la tua proposta"
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
   geninfo_description: "devsecopsday è la prima conferenza italiana dedicata alla pratiche di sicurezza in ambito DevOps - dallo stesso team che organizza <a href='https://incontrodevops.it'>Incontro DevOps Italia</a> e <a href='https://containerday.it'>containerday.</a>
-  </p><p>devsecopsday si svolge a Bologna, Venerdì 13 Ottobre 2023. Si può partecipare in presenza oppure online.
-  </p><p>Nei giorni prima, nella stessa venue, si svolgono <a href='https://containerday.it'>la conferenza containerday, e alcuni workshop dedicati anche alla sicurezza.</a>"
+  </p><p>devsecopsday si svolge a Bologna, Venerdì 11 Ottobre 2024. Si potrà partecipare in presenza oppure online.
+  </p><p>Un giorno prima, nella stessa location, si svolgerà <a href='https://containerday.it'>containerday</a>.</a>"
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarship"
@@ -89,7 +89,7 @@ conference:
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Informazioni riguardo la privacy policy di Mailchimp"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
-  speakers_visible: true
+  speakers_visible: false
   speakers_title: "speaker"
   mcs_title: "MC"
   speaker_count_text:
@@ -113,11 +113,11 @@ conference:
   workshops_readmore_label: "Continua a leggere"
   workshops_register_label: "Registrati"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  media_visible: false
-  media_pic_1: ""
-  media_pic_2: ""
-  media_pic_3: ""
-  media_pic_4: ""
+  media_visible: true
+  media_pic_1: "1.jpg"
+  media_pic_2: "2.jpg"
+  media_pic_3: "3.jpg"
+  media_pic_4: "4.jpg"
   #   playlist: if true, the iframe will be created. if false, it will not
   media_video_playlist: false
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
@@ -139,7 +139,7 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: true
+  sponsors_visible: false
   sponsor_title_home: "Grazie al supporto di"
   # this is for the Community partners section in home page
   community_partners: true
