@@ -56,7 +56,7 @@ conference:
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
-  geninfo_description: "devsecopsday è la prima conferenza italiana dedicata alla pratiche di sicurezza in ambito DevOps - dallo stesso team che organizza <a href='https://incontrodevops.it'>Incontro DevOps Italia</a> e <a href='https://containerday.it'>containerday.</a>
+  geninfo_description: "devsecopsday è la prima conferenza italiana dedicata alle pratiche di sicurezza in ambito DevOps - dallo stesso team che organizza <a href='https://incontrodevops.it'>Incontro DevOps Italia</a> e <a href='https://containerday.it'>containerday.</a>
   </p><p>devsecopsday si svolge a Bologna, Venerdì 11 Ottobre 2024. Si potrà partecipare in presenza oppure online.
   </p><p>Un giorno prima, nella stessa location, si svolgerà <a href='https://containerday.it'>containerday</a>.</a>"
   geninfo_about_label: "About"
