@@ -10,27 +10,27 @@ intro:
     La diversità e l'inclusione sono sempre state al centro delle nostre attività.
     Applichiamo un codice di condotta da molti anni e abbiamo programmi di borse di studio (scholarships) per ciascuna delle nostre conferenze."
 more:
-  tutle: "Le conferenze del GrUSP"
+  title: "<font color=white>Le conferenze del GrUSP</font>"
   content_1:
-    "<p>Organizziamo numerose conferenze tecnologiche in Italia, coinvolgendo professionisti italiani e internazionali. Gli argomenti trattati spaziano dai linguaggi e framework di sviluppo web (Angular, React, Symfony, PHP, JavaScript, Ruby, ecc.) alle tecnologie DevOps e di sicurezza, fino a temi legati al web design (UX e CSS). Organizziamo anche il Product Management Day, la prima conferenza italiana dedicata al product management.<br>&nbsp;<br>
-    Si tratta di eventi unici, che combinano workshop, interventi tecnici e importanti opportunità di networking. Durante le nostre conferenze, i partecipanti hanno la possibilità di entrare in contatto con i migliori professionisti, scambiare idee innovative e scoprire le ultime tendenze del settore. Ogni anno, più di 6.000 persone partecipano ai nostri eventi!</p>
-    <p>Questa è la lista delle nostre conferenze:<br>
-    <li><a href='https://dxday.it/' target=_blank>dxday - the developer experience conference</a>
-    <li><a href='https://incontrodevops.it/' target=_blank>Incontro DevOps Italia</a>
-    <li><a href='https://cssday.it/' target=_blank>cssday</a>
-    <li><a href='https://jsday.it/' target=_blank>jsday</a>
-    <li><a href='https://phpday.it/' target=_blank>phpday</a>
-    <li><a href='https://rubyday.it/' target=_blank>rubyday</a>
-    <li><a href='https://uxday.it/' target=_blank>uxday</a>
-    <li><a href='https://containerday.it/' target=_blank>containerday</a>
-    <li><a href='https://devsecopsday.it/' target=_blank>devsecopsday</a>
-    <!--li><a href='https://bettersoftware.it/' target=_blank>Better Software</a-->
-    <li><a href='https://reactjsday.it/' target=_blank>reactjsday</a>
-    <li><a href='https://laravelday.it/' target=_blank>laravelday</a>
-    <li><a href='https://angularday.it/' target=_blank>angularday</a>
-    <li><a href='https://www.productmanagementday.com/' target=_blank>Product Management Day</a>
-    </p>
-    Inoltre, <b>siamo costantemente alla ricerca di nuovi speaker</b>! Consultate la nostra pagina <a href='https://www.grusp.org/en/speakers/' target=_blank>[Call for Papers]</a> e candidatevi per diventare uno dei nostri prossimi relatori!"
+    "<p><font color=white>Organizziamo numerose conferenze tecnologiche in Italia, coinvolgendo professionisti italiani e internazionali. Gli argomenti trattati spaziano dai linguaggi e framework di sviluppo web (Angular, React, Symfony, PHP, JavaScript, Ruby, ecc.) alle tecnologie DevOps e di sicurezza, fino a temi legati al web design (UX e CSS). Organizziamo anche il Product Management Day, la prima conferenza italiana dedicata al product management.<br>&nbsp;<br>
+    Si tratta di eventi unici, che combinano workshop, interventi tecnici e importanti opportunità di networking. Durante le nostre conferenze, i partecipanti hanno la possibilità di entrare in contatto con i migliori professionisti, scambiare idee innovative e scoprire le ultime tendenze del settore. Ogni anno, più di 6.000 persone partecipano ai nostri eventi!</font></p>
+    <p><font color=white>Questa è la lista delle nostre conferenze:<br>
+    <li><a href='https://dxday.it/' target=_blank><font color=white>dxday - the developer experience conference</font></a>
+    <li><a href='https://incontrodevops.it/' target=_blank><font color=white>Incontro DevOps Italia</font></a>
+    <li><a href='https://cssday.it/' target=_blank><font color=white>cssday</font></a>
+    <li><a href='https://jsday.it/' target=_blank><font color=white>jsday</font></a>
+    <li><a href='https://phpday.it/' target=_blank><font color=white>phpday</font></a>
+    <li><a href='https://rubyday.it/' target=_blank><font color=white>rubyday</font></a>
+    <li><a href='https://uxday.it/' target=_blank><font color=white>uxday</font></a>
+    <li><a href='https://containerday.it/' target=_blank><font color=white>containerday</font></a>
+    <li><a href='https://devsecopsday.it/' target=_blank><font color=white>devsecopsday</font></a>
+    <!--li><a href='https://bettersoftware.it/' target=_blank><font color=white>Better Software</font></a-->
+    <li><a href='https://reactjsday.it/' target=_blank><font color=white>reactjsday</font></a>
+    <li><a href='https://laravelday.it/' target=_blank><font color=white>laravelday</font></a>
+    <li><a href='https://angularday.it/' target=_blank><font color=white>angularday</font></a>
+    <li><a href='https://www.productmanagementday.com/' target=_blank><font color=white>Product Management Day</font></a>
+    </font></p>
+    <font color=white>Inoltre, <b>siamo costantemente alla ricerca di nuovi speaker</b>! Consultate la nostra pagina <a href='https://www.grusp.org/en/speakers/' target=_blank><font color=white>[Call for Papers]</font></a> e candidatevi per diventare uno dei nostri prossimi relatori!</font>"
 team:
   title: "Il team"
   intro: "Siamo un team dinamico di persone appassionate, che fondono diverse competenze in ambito tecnologico, creativo e di community management. Questa combinazione unica di competenze ci permette di portare avanti la nostra missione con entusiasmo!"
