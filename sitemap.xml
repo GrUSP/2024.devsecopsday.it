@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2024.devsecopsday.it/welcome/about.html</loc>
+    <loc>https://2024.devsecopsday.it/welcome/cfp.html</loc>
     
     <lastmod>2024-05-21</lastmod>
     
@@ -23,13 +23,6 @@
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/sponsor/index.html</loc>
-    
-    <lastmod>2024-05-21</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://2024.devsecopsday.it/talks_speakers/index.html</loc>
     
     <lastmod>2024-05-21</lastmod>
@@ -37,7 +30,7 @@
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/welcome/index.html</loc>
+    <loc>https://2024.devsecopsday.it/sponsor/index.html</loc>
     
     <lastmod>2024-05-21</lastmod>
     
@@ -45,6 +38,13 @@
   
   <url>
     <loc>https://2024.devsecopsday.it/tickets/index.html</loc>
+    
+    <lastmod>2024-05-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.devsecopsday.it/welcome/index.html</loc>
     
     <lastmod>2024-05-21</lastmod>
     
@@ -65,14 +65,7 @@
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/welcome/cfp.html</loc>
-    
-    <lastmod>2024-05-21</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.devsecopsday.it/welcome/safety.html</loc>
+    <loc>https://2024.devsecopsday.it/welcome/about.html</loc>
     
     <lastmod>2024-05-21</lastmod>
     
@@ -80,6 +73,13 @@
   
   <url>
     <loc>https://2024.devsecopsday.it/welcome/coc.html</loc>
+    
+    <lastmod>2024-05-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.devsecopsday.it/welcome/safety.html</loc>
     
     <lastmod>2024-05-21</lastmod>
     
@@ -100,14 +100,14 @@
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/404.html</loc>
+    <loc>https://2024.devsecopsday.it/2019/08/19/test/</loc>
     
     <lastmod>2024-05-21</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/2019/08/19/test/</loc>
+    <loc>https://2024.devsecopsday.it/404.html</loc>
     
     <lastmod>2024-05-21</lastmod>
     
