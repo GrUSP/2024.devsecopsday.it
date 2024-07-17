@@ -10,6 +10,10 @@ diamond:
     logo_filename: "sighup reevo.png"
     site_url: "https://sighup.io/"
 platinum:
+  sponsor1:
+    name: "Aruba Cloud"
+    logo_filename: "aruba-cloud.svg"
+    site_url: "https://www.cloud.it/home.aspx"
   sponsor2:
     name: "SUSE"
     logo_filename: "suse.svg"
@@ -24,16 +28,24 @@ gold:
     logo_filename: "sparkfabrik.svg"
     site_url: "https://www.sparkfabrik.com/"
 silver:
+  sponsor1:
+    name: "Imola Informatica"
+    logo_filename: "imola-informatica.png"
+    site_url: "https://imolainformatica.it/"
   sponsor2:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
 bronze:
   sponsor1:
+    name: "hashicorp"
+    logo_filename: "hashicorp.svg"
+    site_url: "https://www.hashicorp.com/"
+  sponsor2:
     name: "PostPickr"
     logo_filename: "postpickr.svg"
     site_url: "https://www.postpickr.com/"
-  sponsor2:
+  sponsor3:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/adesivi-personalizzati"

@@ -1,35 +1,171 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
-schedule_under_construction_title: "Schedule under construction"
-schedule_under_construction_description: "We are still defining the schedule. Please be patient"
+generate_schedule_page: false
+schedule_under_construction_title: "il programma della giornata sarà disponibile a breve"
+schedule_under_construction_description: ""
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_github_url: ""
-  speaker_twitter_url: ""
+# speaker_1: &riccardocarlesso
+#   speaker_in_speaker_lists: true
+#   speaker_name: Riccardo Carlesso
+#   speaker_pic_filename: riccardo-carlesso.png
+#   speaker_role: Developer Advocate @ Google cloud
+#   speaker_bio: Former network administrator, sysadmin, and Ruby on Rails developer, Riccardo has been in operations for 20+ years and still likes to spend time coding (better if Ruby). He loves engaging with customers and help them run their operations reliably and successfully in the cloud.
+#   speaker_twitter_url: https://x.com/palladius
+#   speaker_github_url: https://github.com/palladius
+#   speaker_linkedin_url: https://www.linkedin.com/in/riccardocarlesso
+#   speaker_instagram_url: ""
+#   speaker_mastodon_url: ""
+speaker_2: &alessandrabilardi
+  speaker_in_speaker_lists: true
+  speaker_name: Alessandra Bilardi
+  speaker_pic_filename: alessandra-bilardi.png
+  speaker_role: Data & Automation Specialist @ Corley Cloud
+  speaker_bio: "Alessandra è un Cloud Engineer con focus sui dati. In
+    passato, ha lavorato su e-commerce come sviluppatore, dev lead, DBA, .. ma
+    adesso è tornata alle origini (accademiche): soluzioni di dati e ML,
+    dall’ingestion, analisi, trasformazione e predizione, alla visualizzazione
+    dei dati. Ama provare e condividere: è AWS & PyData evangelist e Coderdojo
+    mentor."
+  speaker_twitter_url: http://twitter.com/abilardi
+  speaker_github_url: http://github.com/bilardi
+  speaker_linkedin_url: http://linkedin.com/in/bilardi
   speaker_instagram_url: ""
-  speaker_linkedin_url: ""
   speaker_mastodon_url: ""
-  is_mc: false
+speaker_3: &michelebuccarello
+  speaker_in_speaker_lists: true
+  speaker_name: Michele Buccarello
+  speaker_pic_filename: michele-buccarello.png
+  speaker_role: Tecnical Account Manager for Enterprise Account @ SIGHUP
+  speaker_bio: I'm currently the Tecnical Account Manager for Enterprise
+    Account in SIGHUP and I'm passionate about Cloud Native, Cloud Native
+    Security and Containers topics,
+  speaker_twitter_url: https://twitter.com/buccarellom
+  speaker_github_url: ""
+  speaker_linkedin_url: https://www.linkedin.com/in/buccarello/
+  speaker_instagram_url: ""
+  speaker_mastodon_url: ""
+speaker_4: &matteobisi
+  speaker_in_speaker_lists: true
+  speaker_name: "Matteo  Bisi "
+  speaker_pic_filename: matteo-bisi.png
+  speaker_role: Senior DevSecops Engineer | Team Leader @ SIGHUP
+  speaker_bio: "Matteo Bisi è un senior DevSecOps Engineer ed in SIGHUP  è Team
+    Leader DevSecOps e DevOps. Si occupa della gestione del team, segue e guida
+    la  realizzazione dei progetti, d cura i rapporti con clienti e partner.  Da
+    sempre appassionato di Community, è un contributor attivo della CNCF, dove è
+    membro del IT glossary team ed editor della Kubeweekly.        "
+  speaker_twitter_url: https://x.com/IamMatteoBisi
+  speaker_github_url: "https://github.com/matteobisi "
+  speaker_linkedin_url: https://www.linkedin.com/in/matteobisi
+  speaker_instagram_url: ""
+  speaker_mastodon_url: ""
+speaker_5: &lucabolli
+  speaker_in_speaker_lists: true
+  speaker_name: Luca Bolli
+  speaker_pic_filename: luca-bolli.png
+  speaker_role: Staff Solution Engineer @ HashiCorp
+  speaker_bio: '​​Luca Bolli è Staff Solution Engineer in HashiCorp per il
+    territorio italiano. E’ un appassionato di tecnologia, di architetture
+    software, cloud native e di metodologia DevOps . Da sempre sostenitore del
+    concetto "less is more" quando non è incollato allo schermo di un computer
+    si dedica alle sue principali passioni: i suoi due figli, leggere, giocare
+    di ruolo, ascoltare musica e soprattutto incontrare i suoi amici. La prima
+    cosa che configura quando ha davanti un computer? Una bash funzionante,
+    perché senza riga di comando non potrebbe vivere!'
+  speaker_github_url: https://github.com/angryluke
+  speaker_linkedin_url: https://www.linkedin.com/in/luca-bolli/
+  speaker_instagram_url: ""
+  speaker_mastodon_url: ""
+# speaker_6: &alessandrobraccio
+#   speaker_in_speaker_lists: true
+#   speaker_name: Alessandro Braccio
+#   speaker_pic_filename: alessandro-braccio.png
+#   speaker_role: Security @ Arduino
+#   speaker_bio: ""
+#   speaker_twitter_url: ""
+#   speaker_github_url: ""
+#   speaker_linkedin_url: https://www.linkedin.com/in/abraccio/
+#   speaker_instagram_url: ""
+#   speaker_mastodon_url: ""
+# speaker_7: &francescodenardi
+#   speaker_in_speaker_lists: true
+#   speaker_name: Francesco De Nardi
+#   speaker_pic_filename: francesco-denardi.png
+#   speaker_role: DevOps Cloud Architect @ ConTe.it
+#   speaker_bio: ""
+#   speaker_twitter_url: ""
+#   speaker_github_url: ""
+#   speaker_linkedin_url: https://www.linkedin.com/in/linkedin.com/in/francesco-de-nardi-a47a17179
+#   speaker_instagram_url: ""
+#   speaker_mastodon_url: ""
+# speaker_10: &gianlucamagnante
+#   speaker_in_speaker_lists: true
+#   speaker_name: Gianluca Magnante
+#   speaker_pic_filename: gianluca-magnante.png
+#   speaker_role: Tech Ops field Manager @ ConTe.it
+#   speaker_bio: ""
+#   speaker_twitter_url: ""
+#   speaker_github_url: ""
+#   speaker_linkedin_url: https://www.linkedin.com/in/linkedin.com/in/francesco-de-nardi-a47a17179
+#   speaker_instagram_url: ""
+#   speaker_mastodon_url: ""
+speaker_8: &mariotrucco
+  speaker_in_speaker_lists: true
+  speaker_name: Mario Trucco
+  speaker_pic_filename: mario-trucco.png
+  speaker_role: "Staff Engineer @ Jimdo "
+  speaker_bio: "Laureato in matematica, convertito al software engineering. Dal
+    2010 sviluppo prodotti per il marketing digitale e la presenza online, in
+    team impostati sul principio \"you build it, you run it\". Per SkyLab Italia
+    ho lavorato allo sviluppo di prodotti per l'AB test, content recommendation,
+    content monetization e lead generation. Dal 2018 vivo ad Amburgo e lavoro
+    per Jimdo, SaaS che tra le altre cose serve milioni di siti creati e gestiti
+    autonomamente da utenti non tech-savvy. La mia esperienza è full stack con
+    focus sul backend. Dal 2023 sono Staff Engineer: lavoro e supporto
+    iniziative cross team sia per l'engineering del prodotto che per quello
+    infrastrutturale."
+  speaker_twitter_url: ""
+  speaker_github_url: https://github.com/mariotrucco
+  speaker_linkedin_url: https://de.linkedin.com/in/mario-trucco-25281a7b
+  speaker_instagram_url: ""
+  speaker_mastodon_url: ""
+speaker_9: &riccardosoro
+  speaker_in_speaker_lists: true
+  speaker_name: Riccardo Soro
+  speaker_pic_filename: riccardo-soro.png
+  speaker_role: Devops Consultant @ Imola Informatica
+  speaker_bio: Riccardo Soro è un ingegnere informatico di 29 anni con una grande
+    passione per l'informatica, in particolare nei campi del DevOps e dell'AI
+    generativa. Il suo percorso nel mondo della tecnologia è guidato da
+    un'insaziabile curiosità e da un forte desiderio di innovare. Nel tempo
+    libero, non perde mai l'occasione di fare arrampicata all'aperto con gli
+    amici, trovando ispirazione e nuove idee tra le rocce. La sua sete di
+    conoscenza e determinazione lo spingono sempre a esplorare nuove frontiere
+    tecnologiche e ad affrontare ogni sfida con entusiasmo.
+  speaker_twitter_url: ""
+  speaker_github_url: ""
+  speaker_linkedin_url: https://www.linkedin.com/in/riccardo-soro-29a3b218b/
+  speaker_instagram_url: ""
+  speaker_mastodon_url: ""
 
 speakers:
-  speaker_1: *speaker
+
+  speaker_2: *alessandrabilardi
+  speaker_4: *matteobisi
+  speaker_5: *lucabolli
+# speaker_6: *alessandrobraccio
+  speaker_3: *michelebuccarello
+# speaker_1: *riccardocarlesso
+# speaker_7: *francescodenardi
+# speaker_8: *gianlucamagnante
+  speaker_9: *riccardosoro
+  speaker_10: *mariotrucco
+
 
 tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -39,47 +175,227 @@ tracks:
 #   "other" -- altro; si inseriranno solo ora, titolo, descrizione facoltativa
 # NB tutti i "talk" devono avere una track. I "service" e i "keynote" dovrebbero avere track_1
 
+
 days:
   day_1:
-    date: 2020-09-16T09:00
-    title: "Day 1"
+    date: 2024-11-11T09:30+02:00
+    title: Day 1
     talks:
-      talk_1:
-        item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
-        talk_title: "Check-in"
-      talk_2:
-        item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
-        talk_title: "Lunch break"
-        service_icon: "cutlery"
-      happy-hour:
-        item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
 
-      # talk
-      keynote:
-        item_type: "keynote"
+# service
+
+      check-in:
+        item_type: "service"
+        start_datetime: 2024-10-11T09:00+01:00
+        end_datetime: 2024-10-11T09:30+01:00
+        talk_title: "Check-in: prendi il tuo badge"
+      opening:
+        item_type: "service"
+        start_datetime: 2024-10-11T09:30+01:00
+        end_datetime: 2024-10-11T09:45+01:00
+        talk_title: "Intro by GrUSP"
+      lunch:
+        item_type: "service"
+        start_datetime: 2024-10-11T13:05+01:00
+        end_datetime: 2024-10-11T14:35+01:00
+        talk_title: "Pausa pranzo 🍴"
+        service_icon: "cutlery"
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2024-10-11T11:10+01:00
+        end_datetime: 2024-10-11T11:40+01:00
+        talk_title: "Pausa caffè ☕️"
+        service_icon: "coffee"
+      coffee-afternoon:
+        item_type: "service"
+        start_datetime: 2024-10-11T15:50+01:00
+        end_datetime: 2024-10-11T16:20+01:00
+        talk_title: "Pausa caffè ☕️"
+        service_icon: "coffee"
+      closing:
+        item_type: "service"
+        start_datetime: 2024-10-11T17:40+01:00
+        end_datetime: 2024-10-11T17:50+01:00
+        talk_title: "👋 Chiusura e saluti"
+
+
+# talk
+
+      # how-to-fail-your-sre-adoption-1:
+      #   item_type: talk
+      #   track: *track_1
+      #   talk_title: How to fail your SRE adoption
+      #   talk_description: "Where SRE can go wrong  I’ve been talking to customers re their SRE
+      #     adoption since 2019. Oftentimes, they struggled in their effort to
+      #     apply the Google methodology within their company. In this talk
+      #     Riccardo will first set an introduction to SRE, then try to explain
+      #     what failures patterns he's observed (partly contained in Enterprise
+      #     Roadmap to SRE report)   Topics: - What SRE is. - What SRE is not. -
+      #     Anti-patterns in SRE adoption - How to make it work for your company "
+      #   talk_video_url: ""
+      #   start_datetime: ""
+      #   end_datetime: ""
+      #   speakers:
+      #     speaker_1: *riccardocarlesso
+      a-gentle-introduction-to-mlsecops-2:
+        item_type: talk
         track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
+        talk_title: A gentle introduction to MLSecOps
+        talk_description: L'obiettivo principale di MLSecOps è mitigare i rischi legati alla
+          sicurezza dei modelli di machine learning, compresi attacchi
+          avversari, furti di dati sensibili e violazioni della privacy.
+          Attraverso l'implementazione di processi di monitoraggio continuo,
+          rilevamento delle anomalie e risposta agli incidenti, MLSecOps
+          contribuisce a garantire la sicurezza e l'integrità dei dati e dei
+          modelli durante tutto il ciclo di vita dei sistemi di machine
+          learning, mitigando i rischi di furti, manipolazioni o accessi non
+          autorizzati. Esploreremo i principi del ML responsabile e le
+          vulnerabilità dell'OWASP in chiave MLOps. L’adozione di approcci
+          proattivi per garantire anche la sicurezza dei sistemi che gestiscono
+          dati e modelli di machine learning è la base per sogni tranquilli e
+          weekend rilassanti.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
         speakers:
-          speaker_1: *speaker
-      titolotalk1:
-        item_type: "talk"
+          speaker_1: *alessandrabilardi
+      a-journey-to-distroless-3:
+        item_type: talk
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
+        talk_title: A journey to distroless
+        talk_description: Con il passare del tempo è sempre piu difficile contenere le
+          vulterabilità introdotte non solo dalle applicazioni e dai sistemi
+          operativi, ma anche dai container ed è diventato piu sfidante riuscire
+          ad implementarlo con un approccio automatico. In questo talk andremo a
+          parlare di come affrontare il problema delle immagini base, come
+          gestirle in modo coerente e quanto è complesso usare immagini base di
+          terze parti senza poi introdurre nuove CVEs. Al termine del talk ci
+          sarà una demo con esempi di build distroless e verrà fornito un
+          repository di esempio ai partecipanti.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
         speakers:
-          speaker_1: *speaker
+          speaker_1: *michelebuccarello
+          speaker_2: *matteobisi
+      potenzia-il-tuo-pam-con-il-platform-engineering-5:
+        item_type: talk
+        track: *track_1
+        talk_title: Potenzia il tuo PAM con il Platform Engineering
+        talk_description: "Fra le mansioni principali dei platform teams c'è quella di creare
+          molteplici infrastrutture in modo sicuro e ripetibile. La crescita
+          aziendale è direttamente proporzionale al  numero dei team di sviluppo
+          e di supporto che gestiscono l'infrastruttura: per ogni applicazione o
+          servizio, per molteplici ambienti (prod, dev, test, ad esempio)  e
+          ovviamente ciascuno con differenti SLA e livelli di segregazione.
+          Questa crescita, che vediamo essere sempre più rapida, crea nuovi
+          requisiti per multi-tenancy, RBAC basato su infrastruttura,
+          crittografia, continua verifica di conformità, imposizione
+          automatizzata di policy e self-service che necessitano soprattutto di
+          automazione e controllo. Consideriamo per un momento un tipico
+          scenario: Fai parte di un team di sviluppo che si occupa di realizzare
+          un'applicazione o un servizio ospitato in un ambiente Kubernetes
+          (magari un servizio gestito) con i vari componenti che possono essere
+          distribuiti in uno o più spazi dei nomi. Come possiamo abilitare
+          l'accesso esterno sicuro al contenuto e ai componenti di questa
+          applicazione per scopi di debug o manutenzione senza compromettere la
+          sicurezza della piattaforma o dell'applicazione? Come possiamo
+          automatizzare l'accesso ai nuovi componenti che verranno sviluppati e
+          rilasciati durante il ciclo di vita dell'applicazione stessa?
+          Scopriamo insieme come la Piattaforma Cloud HashiCorp può potenziare
+          la soluzione di Privileged Access Management introducendo automazione,
+          controllo, sicurezza e dinamicità offrendo una soluzione totalmente
+          integrata alla gestione del ciclo di vita delle infrastrutture e della
+          sicurezza."
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *lucabolli
+      # vulnerability-management-lifecycle-in-devsecops-6:
+      #   item_type: talk
+      #   track: *track_1
+      #   talk_title: Vulnerability Management Lifecycle in DevSecOps
+      #   talk_description: Il talk offrirà un'analisi approfondita e strategica del ciclo di vita
+      #     della gestione delle vulnerabilità. Affronteremo come gestire
+      #     efficacemente i findings ritornati dalle pipeline di sicurezza nei
+      #     moderni approcci DevSecOps, coprendo ogni fase cruciale del ciclo di
+      #     vita delle vulnerabilità. Discuteremo come mantenere un inventario
+      #     accurato degli asset e valutare le vulnerabilità per identificare e
+      #     catalogare le risorse critiche. Esploreremo metodi avanzati di
+      #     prioritizzazione delle vulnerabilità basati su rischio e impatto,
+      #     assicurando che le risorse siano allocate in modo ottimale per
+      #     mitigare le minacce più significative. Approfondiremo le strategie di
+      #     risoluzione delle vulnerabilità, inclusa l'integrazione delle patch e
+      #     delle soluzioni nel ciclo di sviluppo senza interrompere i flussi di
+      #     lavoro. Esamineremo l'importanza della verifica e del monitoraggio
+      #     continui per rilevare e rispondere tempestivamente a nuove
+      #     vulnerabilità. Infine, illustreremo come creare report dettagliati e
+      #     implementare feedback loop per il miglioramento continuo, aiutando le
+      #     organizzazioni a mantenere una postura di sicurezza proattiva e
+      #     adattiva.Partecipa a questo talk per ottenere una visione chiara e
+      #     pratica di come gestire strategicamente tutti i findings delle
+      #     pipeline di sicurezza, ipotizzando metodi di prioritizzazione, livelli
+      #     di accettazione del rischio, e tecniche di mitigazione e remediation.
+      #     Non perdere l'occasione di apprendere come potenziare la sicurezza
+      #     della tua organizzazione all'interno di un ambiente DevSecOps,
+      #     mantenendola sempre un passo avanti rispetto alle minacce emergenti.
+      #   talk_video_url: ""
+      #   start_datetime: ""
+      #   end_datetime: ""
+      #   speakers:
+      #     speaker_1: *alessandrobraccio
+      # finops-e-tag-strategy-su-aws-7:
+      #   item_type: talk
+      #   track: *track_1
+      #   talk_title: FinOps e Tag Strategy su AWS
+      #   talk_description: "Tag Strategy on Cloud: Come una buona Tag Strategy, può aiutare il monitoraggio applicativo, le strategie di FinOps, il Security Assessment e Risk Assessment. Rilasciare e definire la tag strategy in una infrastruttura cloud e mantenerla attraverso l'automazione e la definizione di owner."
+      #   talk_video_url: ""
+      #   start_datetime: ""
+      #   end_datetime: ""
+      #   speakers:
+      #     speaker_1: *francescodenardi
+      #     speaker_2: *gianlucamagnante
+      scaling-and-securing-12-million-websites-8:
+        item_type: talk
+        track: *track_1
+        talk_title: Scaling and Securing 12 Million Websites
+        talk_description: "In questo talk presentiamo le soluzioni implementate da Jimdo per servire in modo efficiente, sicuro e veloce oltre 12 milioni di siti web clienti. Utilizzando Amazon Web Services (AWS) e Cloudflare, abbiamo affrontato le sfide legate al caching e alla sicurezza, ottimizzando la nostra infrastruttura.
+        Il talk sarà strutturato in tre sezioni:
+        <ul>
+        <li>1. Obiettivi: esamineremo i requisiti per servire una vasta rete di siti 'Do It Yourself' di utenti non tech-savvy.
+        </li><li>2. Soluzioni tecniche e implementazione: una panoramica dettagliata delle tecnologie e strategie che abbiamo adottato, con particolare attenzione all'utilizzo di Cloudflare per implementare una soluzione di caching efficace e rafforzare la sicurezza.
+        </li><li>3. Risultati e Best Practices: i risultati ottenuti, quello che abbiamo imparato, e le best practices che possono essere applicate a contesti simili per aumentare scalabilità e sicurezza.
+        </li>
+        </ul>"
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *mariotrucco
+      aigenops:-integrare-l'ai-generativa-nel-platform-engineering-per-regulated-software-9:
+        item_type: talk
+        track: *track_1
+        talk_title: "AIGenOps: Integrare l'AI Generativa nel Platform Engineering per
+          regulated software"
+        talk_description: L'integrazione dell'AI generativa nel platform engineering offre
+          opportunità significative per ottimizzare e automatizzare flussi di
+          lavoro, soprattutto nei contesti di sviluppo di regulated software.
+          Purtroppo inserire un ciclo di continuous generating può tradursi in
+          ore di elaborazione e produzione di materiale, a volte eccessivo, che
+          non produce valore. In questo talk vedremo come adottare un approccio
+          zero-trust per garantire la sicurezza e la conformità, senza intaccare
+          i processi già in essere, e prevenendo la produzione massiva di
+          oggetti superflui. Attraverso strategie pratiche, proporremo come l'AI
+          generativa può essere inserita nel platform engineering in scenari
+          regolamentati lasciando all'utente l'approvazione dell'elaborato senza
+          gravarlo di un carico di lavoro significativamente superiore al
+          normale, evitando la generazione di codice non funzionante da
+          revisionare. Preferendo invece concentrarsi sull'affrontare in modo
+          efficiente le segnalazioni critiche prioritarie e colmare le
+          principali lacune nella copertura dei test.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *riccardosoro
