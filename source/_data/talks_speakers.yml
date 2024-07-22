@@ -20,7 +20,7 @@ speaker_2: &alessandrabilardi
   speaker_name: Alessandra Bilardi
   speaker_pic_filename: alessandra-bilardi.png
   speaker_role: Data & Automation Specialist @ Corley Cloud
-  speaker_bio: "Alessandra è un Cloud Engineer con focus sui dati. In
+  speaker_bio: "Alessandra è una Cloud Engineer con focus sui dati. In
     passato, ha lavorato su e-commerce come sviluppatore, dev lead, DBA, .. ma
     adesso è tornata alle origini (accademiche): soluzioni di dati e ML,
     dall’ingestion, analisi, trasformazione e predizione, alla visualizzazione
@@ -76,39 +76,41 @@ speaker_5: &lucabolli
   speaker_linkedin_url: https://www.linkedin.com/in/luca-bolli/
   speaker_instagram_url: ""
   speaker_mastodon_url: ""
-# speaker_6: &alessandrobraccio
-#   speaker_in_speaker_lists: true
-#   speaker_name: Alessandro Braccio
-#   speaker_pic_filename: alessandro-braccio.png
-#   speaker_role: Security @ Arduino
-#   speaker_bio: ""
-#   speaker_twitter_url: ""
-#   speaker_github_url: ""
-#   speaker_linkedin_url: https://www.linkedin.com/in/abraccio/
-#   speaker_instagram_url: ""
-#   speaker_mastodon_url: ""
-# speaker_7: &francescodenardi
-#   speaker_in_speaker_lists: true
-#   speaker_name: Francesco De Nardi
-#   speaker_pic_filename: francesco-denardi.png
-#   speaker_role: DevOps Cloud Architect @ ConTe.it
-#   speaker_bio: ""
-#   speaker_twitter_url: ""
-#   speaker_github_url: ""
-#   speaker_linkedin_url: https://www.linkedin.com/in/linkedin.com/in/francesco-de-nardi-a47a17179
-#   speaker_instagram_url: ""
-#   speaker_mastodon_url: ""
-# speaker_10: &gianlucamagnante
-#   speaker_in_speaker_lists: true
-#   speaker_name: Gianluca Magnante
-#   speaker_pic_filename: gianluca-magnante.png
-#   speaker_role: Tech Ops field Manager @ ConTe.it
-#   speaker_bio: ""
-#   speaker_twitter_url: ""
-#   speaker_github_url: ""
-#   speaker_linkedin_url: https://www.linkedin.com/in/linkedin.com/in/francesco-de-nardi-a47a17179
-#   speaker_instagram_url: ""
-#   speaker_mastodon_url: ""
+speaker_6: &alessandrobraccio
+  speaker_in_speaker_lists: true
+  speaker_name: Alessandro Braccio
+  speaker_pic_filename: alessandro-braccio.png
+  speaker_role: Senior Specialist Security Engineer @ Arduino
+  speaker_bio: "Alessandro Braccio è profondamente impegnato nelle tematiche di Product Security, in particolare in tutte le attività legate allo sviluppo software e al Vulnerability Management Lifecycle.
+  Le sue aree di competenza comprendono Application Security, DevSecOps, Cloud Security, IoT Security e full-stack development. Negli ultimi dieci anni, ha ricoperto ruoli fondamentali come Principal Security Consultant, accumulando esperienza in attività di Penetration Testing, Code Review, Threat Modeling e nello sviluppo di software sicuro. Inoltre, è stato coinvolto in attività di formazione e mentoring per diverse organizzazioni internazionali. Attualmente, ricopre la posizione di Senior Specialist Security Engineer presso Arduino e assume il ruolo di Italian Chapter Lead per la DevSecCon Community."
+  speaker_twitter_url: ""
+  speaker_github_url: ""
+  speaker_linkedin_url: https://www.linkedin.com/in/abraccio/
+  speaker_instagram_url: ""
+  speaker_mastodon_url: ""
+speaker_7: &francescodenardi
+  speaker_in_speaker_lists: true
+  speaker_name: Francesco De Nardi
+  speaker_pic_filename: francesco-de-nardi.png
+  speaker_role: DevOps Cloud Architect @ ConTe.it
+  speaker_bio: "Cloud Engineer da 8 anni in ConTe.it con esperienza su Cloud AWS e su migrazioni in Cloud. Negli ultimi anni mi sono avvicinato al mondo del FInOps."
+  speaker_twitter_url: ""
+  speaker_github_url: ""
+  speaker_linkedin_url: https://www.linkedin.com/in/linkedin.com/in/francesco-de-nardi-a47a17179
+  speaker_instagram_url: ""
+  speaker_mastodon_url: ""
+speaker_10: &gianlucamagnante
+  speaker_in_speaker_lists: true
+  speaker_name: Gianluca Magnante
+  speaker_pic_filename: gianluca-magnante.png
+  speaker_role: Tech Ops field Manager @ ConTe.it
+  speaker_bio: "IT Operation Manager di Conte.it, con oltre 20 di esperienza nel mondo IT. Ha precedenti esperienze nel mondo delle Telco, dei Giochi e della consulenza.
+Specializzato nell'IT service management e nelle trasformazioni digitali, orientata sempre più alla cloud adoption e quindi alla governance del  TCO e dei processi FinOps."
+  speaker_twitter_url: ""
+  speaker_github_url: ""
+  speaker_linkedin_url: ""
+  speaker_instagram_url: ""
+  speaker_mastodon_url: ""
 speaker_8: &mariotrucco
   speaker_in_speaker_lists: true
   speaker_name: Mario Trucco
@@ -153,11 +155,11 @@ speakers:
   speaker_2: *alessandrabilardi
   speaker_4: *matteobisi
   speaker_5: *lucabolli
-# speaker_6: *alessandrobraccio
+  speaker_6: *alessandrobraccio
   speaker_3: *michelebuccarello
-# speaker_1: *riccardocarlesso
-# speaker_7: *francescodenardi
-# speaker_8: *gianlucamagnante
+  # speaker_1: *riccardocarlesso
+  speaker_7: *francescodenardi
+  speaker_8: *gianlucamagnante
   speaker_9: *riccardosoro
   speaker_10: *mariotrucco
 
@@ -312,50 +314,50 @@ days:
         end_datetime: ""
         speakers:
           speaker_1: *lucabolli
-      # vulnerability-management-lifecycle-in-devsecops-6:
-      #   item_type: talk
-      #   track: *track_1
-      #   talk_title: Vulnerability Management Lifecycle in DevSecOps
-      #   talk_description: Il talk offrirà un'analisi approfondita e strategica del ciclo di vita
-      #     della gestione delle vulnerabilità. Affronteremo come gestire
-      #     efficacemente i findings ritornati dalle pipeline di sicurezza nei
-      #     moderni approcci DevSecOps, coprendo ogni fase cruciale del ciclo di
-      #     vita delle vulnerabilità. Discuteremo come mantenere un inventario
-      #     accurato degli asset e valutare le vulnerabilità per identificare e
-      #     catalogare le risorse critiche. Esploreremo metodi avanzati di
-      #     prioritizzazione delle vulnerabilità basati su rischio e impatto,
-      #     assicurando che le risorse siano allocate in modo ottimale per
-      #     mitigare le minacce più significative. Approfondiremo le strategie di
-      #     risoluzione delle vulnerabilità, inclusa l'integrazione delle patch e
-      #     delle soluzioni nel ciclo di sviluppo senza interrompere i flussi di
-      #     lavoro. Esamineremo l'importanza della verifica e del monitoraggio
-      #     continui per rilevare e rispondere tempestivamente a nuove
-      #     vulnerabilità. Infine, illustreremo come creare report dettagliati e
-      #     implementare feedback loop per il miglioramento continuo, aiutando le
-      #     organizzazioni a mantenere una postura di sicurezza proattiva e
-      #     adattiva.Partecipa a questo talk per ottenere una visione chiara e
-      #     pratica di come gestire strategicamente tutti i findings delle
-      #     pipeline di sicurezza, ipotizzando metodi di prioritizzazione, livelli
-      #     di accettazione del rischio, e tecniche di mitigazione e remediation.
-      #     Non perdere l'occasione di apprendere come potenziare la sicurezza
-      #     della tua organizzazione all'interno di un ambiente DevSecOps,
-      #     mantenendola sempre un passo avanti rispetto alle minacce emergenti.
-      #   talk_video_url: ""
-      #   start_datetime: ""
-      #   end_datetime: ""
-      #   speakers:
-      #     speaker_1: *alessandrobraccio
-      # finops-e-tag-strategy-su-aws-7:
-      #   item_type: talk
-      #   track: *track_1
-      #   talk_title: FinOps e Tag Strategy su AWS
-      #   talk_description: "Tag Strategy on Cloud: Come una buona Tag Strategy, può aiutare il monitoraggio applicativo, le strategie di FinOps, il Security Assessment e Risk Assessment. Rilasciare e definire la tag strategy in una infrastruttura cloud e mantenerla attraverso l'automazione e la definizione di owner."
-      #   talk_video_url: ""
-      #   start_datetime: ""
-      #   end_datetime: ""
-      #   speakers:
-      #     speaker_1: *francescodenardi
-      #     speaker_2: *gianlucamagnante
+      vulnerability-management-lifecycle-in-devsecops-6:
+        item_type: talk
+        track: *track_1
+        talk_title: Vulnerability Management Lifecycle in DevSecOps
+        talk_description: Il talk offrirà un'analisi approfondita e strategica del ciclo di vita
+          della gestione delle vulnerabilità. Affronteremo come gestire
+          efficacemente i findings ritornati dalle pipeline di sicurezza nei
+          moderni approcci DevSecOps, coprendo ogni fase cruciale del ciclo di
+          vita delle vulnerabilità. Discuteremo come mantenere un inventario
+          accurato degli asset e valutare le vulnerabilità per identificare e
+          catalogare le risorse critiche. Esploreremo metodi avanzati di
+          prioritizzazione delle vulnerabilità basati su rischio e impatto,
+          assicurando che le risorse siano allocate in modo ottimale per
+          mitigare le minacce più significative. Approfondiremo le strategie di
+          risoluzione delle vulnerabilità, inclusa l'integrazione delle patch e
+          delle soluzioni nel ciclo di sviluppo senza interrompere i flussi di
+          lavoro. Esamineremo l'importanza della verifica e del monitoraggio
+          continui per rilevare e rispondere tempestivamente a nuove
+          vulnerabilità. Infine, illustreremo come creare report dettagliati e
+          implementare feedback loop per il miglioramento continuo, aiutando le
+          organizzazioni a mantenere una postura di sicurezza proattiva e
+          adattiva.Partecipa a questo talk per ottenere una visione chiara e
+          pratica di come gestire strategicamente tutti i findings delle
+          pipeline di sicurezza, ipotizzando metodi di prioritizzazione, livelli
+          di accettazione del rischio, e tecniche di mitigazione e remediation.
+          Non perdere l'occasione di apprendere come potenziare la sicurezza
+          della tua organizzazione all'interno di un ambiente DevSecOps,
+          mantenendola sempre un passo avanti rispetto alle minacce emergenti.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *alessandrobraccio
+      finops-e-tag-strategy-su-aws-7:
+        item_type: talk
+        track: *track_1
+        talk_title: FinOps e Tag Strategy su AWS
+        talk_description: "Tag Strategy on Cloud: Come una buona Tag Strategy, può aiutare il monitoraggio applicativo, le strategie di FinOps, il Security Assessment e Risk Assessment. Rilasciare e definire la tag strategy in una infrastruttura cloud e mantenerla attraverso l'automazione e la definizione di owner."
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *francescodenardi
+          speaker_2: *gianlucamagnante
       scaling-and-securing-12-million-websites-8:
         item_type: talk
         track: *track_1
