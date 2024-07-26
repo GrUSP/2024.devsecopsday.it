@@ -1,9 +1,9 @@
 sponsors_block_title: ""
-# main:
-#  sponsor1:
-#    name: ""
-#    logo_filename: ""
-#    site_url: ""
+main:
+  sponsor1:
+    name: "Dynatrace"
+    logo_filename: "dynatrace.svg"
+    site_url: "https://www.dynatrace.com/it/"
 diamond:
   sponsor1:
     name: "SIGHUP"
