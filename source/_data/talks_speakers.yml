@@ -35,7 +35,7 @@ speaker_3: &michelebuccarello
   speaker_in_speaker_lists: true
   speaker_name: Michele Buccarello
   speaker_pic_filename: michele-buccarello.png
-  speaker_role: Tecnical Account Manager for Enterprise Account @ SIGHUP
+  speaker_role: Technical Account Manager for Enterprise Account @ SIGHUP
   speaker_bio: I'm currently the Tecnical Account Manager for Enterprise
     Account in SIGHUP and I'm passionate about Cloud Native, Cloud Native
     Security and Containers topics,
@@ -46,7 +46,7 @@ speaker_3: &michelebuccarello
   speaker_mastodon_url: ""
 speaker_4: &matteobisi
   speaker_in_speaker_lists: true
-  speaker_name: "Matteo  Bisi "
+  speaker_name: "Matteo Bisi "
   speaker_pic_filename: matteo-bisi.png
   speaker_role: Senior DevSecops Engineer | Team Leader @ SIGHUP
   speaker_bio: "Matteo Bisi è un senior DevSecOps Engineer ed in SIGHUP  è Team
