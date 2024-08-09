@@ -1,20 +1,20 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "il programma della giornata sarà disponibile a breve"
 schedule_under_construction_description: ""
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-# speaker_1: &riccardocarlesso
-#   speaker_in_speaker_lists: true
-#   speaker_name: Riccardo Carlesso
-#   speaker_pic_filename: riccardo-carlesso.png
-#   speaker_role: Developer Advocate @ Google cloud
-#   speaker_bio: Former network administrator, sysadmin, and Ruby on Rails developer, Riccardo has been in operations for 20+ years and still likes to spend time coding (better if Ruby). He loves engaging with customers and help them run their operations reliably and successfully in the cloud.
-#   speaker_twitter_url: https://x.com/palladius
-#   speaker_github_url: https://github.com/palladius
-#   speaker_linkedin_url: https://www.linkedin.com/in/riccardocarlesso
-#   speaker_instagram_url: ""
-#   speaker_mastodon_url: ""
+speaker_1: &riccardocarlesso
+  speaker_in_speaker_lists: true
+  speaker_name: Riccardo Carlesso
+  speaker_pic_filename: riccardo-carlesso.png
+  speaker_role: Developer Advocate @ Google cloud
+  speaker_bio: Former network administrator, sysadmin, and Ruby on Rails developer, Riccardo has been in operations for 20+ years and still likes to spend time coding (better if Ruby). He loves engaging with customers and help them run their operations reliably and successfully in the cloud.
+  speaker_twitter_url: https://x.com/palladius
+  speaker_github_url: https://github.com/palladius
+  speaker_linkedin_url: https://www.linkedin.com/in/riccardocarlesso
+  speaker_instagram_url: ""
+  speaker_mastodon_url: ""
 speaker_2: &alessandrabilardi
   speaker_in_speaker_lists: true
   speaker_name: Alessandra Bilardi
@@ -104,8 +104,7 @@ speaker_10: &gianlucamagnante
   speaker_name: Gianluca Magnante
   speaker_pic_filename: gianluca-magnante.png
   speaker_role: Tech Ops field Manager @ ConTe.it
-  speaker_bio: "IT Operation Manager di Conte.it, con oltre 20 di esperienza nel mondo IT. Ha precedenti esperienze nel mondo delle Telco, dei Giochi e della consulenza.
-Specializzato nell'IT service management e nelle trasformazioni digitali, orientata sempre più alla cloud adoption e quindi alla governance del  TCO e dei processi FinOps."
+  speaker_bio: "IT Operation Manager di Conte.it, con oltre 20 di esperienza nel mondo IT. Ha precedenti esperienze nel mondo delle Telco, dei Giochi e della consulenza. Specializzato nell'IT service management e nelle trasformazioni digitali, orientata sempre più alla cloud adoption e quindi alla governance del  TCO e dei processi FinOps."
   speaker_twitter_url: ""
   speaker_github_url: ""
   speaker_linkedin_url: ""
@@ -150,18 +149,31 @@ speaker_9: &riccardosoro
   speaker_instagram_url: ""
   speaker_mastodon_url: ""
 
-speakers:
+speaker_11: &emiliotonelli
+  speaker_in_speaker_lists: true
+  speaker_name: Emilio Tonelli
+  speaker_pic_filename: emilio-tonelli.png
+  speaker_role: Lead Security Solutions Engineer @ Dynatrace
+  speaker_bio: "Emilio aiuta clienti e partner a rendere le loro applicazioni web e il relativo stack più sicuri e affidabili. Con 23 anni di esperienza nella sicurezza informatica, è stato consulente per importanti operatori e system integrator a livello globale. Prima di Dynatrace ha ricoperto posizioni tecniche di prevendita, seguendo sempre le innovazioni e le tendenze anche nelle operazioni 'red team/blue team'. Con una profonda esperienza sul campo, è un professionista appassionato che ha ideato iniziative social tra cui una serie di webinar di sensibilizzazione seguiti da centinaia di professionisti."
+  speaker_twitter_url: ""
+  speaker_github_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/emiliotonelli/"
+  speaker_instagram_url: ""
+  speaker_mastodon_url: ""
 
+
+speakers:
   speaker_2: *alessandrabilardi
   speaker_4: *matteobisi
   speaker_5: *lucabolli
   speaker_6: *alessandrobraccio
   speaker_3: *michelebuccarello
-  # speaker_1: *riccardocarlesso
+  speaker_1: *riccardocarlesso
   speaker_7: *francescodenardi
   speaker_8: *gianlucamagnante
   speaker_9: *riccardosoro
-  speaker_10: *mariotrucco
+  speaker_10: *emiliotonelli
+  speaker_11: *mariotrucco
 
 
 tracks:
@@ -188,57 +200,57 @@ days:
 
       check-in:
         item_type: "service"
-        start_datetime: 2024-10-11T09:00+01:00
-        end_datetime: 2024-10-11T09:30+01:00
+        start_datetime: 2024-10-11T09:00+02:00
+        end_datetime: 2024-10-11T09:30+02:00
         talk_title: "Check-in: prendi il tuo badge"
       opening:
         item_type: "service"
-        start_datetime: 2024-10-11T09:30+01:00
-        end_datetime: 2024-10-11T09:45+01:00
+        start_datetime: 2024-10-11T09:30+02:00
+        end_datetime: 2024-10-11T09:45+02:00
         talk_title: "Intro by GrUSP"
       lunch:
         item_type: "service"
-        start_datetime: 2024-10-11T13:05+01:00
-        end_datetime: 2024-10-11T14:35+01:00
+        start_datetime: 2024-10-11T13:05+02:00
+        end_datetime: 2024-10-11T14:35+02:00
         talk_title: "Pausa pranzo 🍴"
         service_icon: "cutlery"
       coffee-morning:
         item_type: "service"
-        start_datetime: 2024-10-11T11:10+01:00
-        end_datetime: 2024-10-11T11:40+01:00
+        start_datetime: 2024-10-11T10:55+02:00
+        end_datetime: 2024-10-11T11:25+02:00
         talk_title: "Pausa caffè ☕️"
         service_icon: "coffee"
       coffee-afternoon:
         item_type: "service"
-        start_datetime: 2024-10-11T15:50+01:00
-        end_datetime: 2024-10-11T16:20+01:00
+        start_datetime: 2024-10-11T15:45+02:00
+        end_datetime: 2024-10-11T16:15+02:00
         talk_title: "Pausa caffè ☕️"
         service_icon: "coffee"
       closing:
         item_type: "service"
-        start_datetime: 2024-10-11T17:40+01:00
-        end_datetime: 2024-10-11T17:50+01:00
+        start_datetime: 2024-10-11T17:25+02:00
+        end_datetime: 2024-10-11T17:35+02:00
         talk_title: "👋 Chiusura e saluti"
 
 
 # talk
 
-      # how-to-fail-your-sre-adoption-1:
-      #   item_type: talk
-      #   track: *track_1
-      #   talk_title: How to fail your SRE adoption
-      #   talk_description: "Where SRE can go wrong  I’ve been talking to customers re their SRE
-      #     adoption since 2019. Oftentimes, they struggled in their effort to
-      #     apply the Google methodology within their company. In this talk
-      #     Riccardo will first set an introduction to SRE, then try to explain
-      #     what failures patterns he's observed (partly contained in Enterprise
-      #     Roadmap to SRE report)   Topics: - What SRE is. - What SRE is not. -
-      #     Anti-patterns in SRE adoption - How to make it work for your company "
-      #   talk_video_url: ""
-      #   start_datetime: ""
-      #   end_datetime: ""
-      #   speakers:
-      #     speaker_1: *riccardocarlesso
+      how-to-fail-your-sre-adoption-1:
+        item_type: talk
+        track: *track_1
+        talk_title: How to fail your SRE adoption
+        talk_description: "Where SRE can go wrong  I’ve been talking to customers re their SRE
+          adoption since 2019. Oftentimes, they struggled in their effort to
+          apply the Google methodology within their company. In this talk
+          Riccardo will first set an introduction to SRE, then try to explain
+          what failures patterns he's observed (partly contained in Enterprise
+          Roadmap to SRE report)   Topics: - What SRE is. - What SRE is not. -
+          Anti-patterns in SRE adoption - How to make it work for your company "
+        talk_video_url: ""
+        start_datetime: 2024-10-11T09:45+02:00
+        end_datetime: 2024-10-11T10:20+02:00
+        speakers:
+          speaker_1: *riccardocarlesso
       a-gentle-introduction-to-mlsecops-2:
         item_type: talk
         track: *track_1
@@ -257,8 +269,8 @@ days:
           dati e modelli di machine learning è la base per sogni tranquilli e
           weekend rilassanti.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: 2024-10-11T10:20+02:00
+        end_datetime: 2024-10-11T10:55+02:00
         speakers:
           speaker_1: *alessandrabilardi
       a-journey-to-distroless-3:
@@ -275,8 +287,8 @@ days:
           sarà una demo con esempi di build distroless e verrà fornito un
           repository di esempio ai partecipanti.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: 2024-10-11T11:25+02:00
+        end_datetime: 2024-10-11T12:00+02:00
         speakers:
           speaker_1: *michelebuccarello
           speaker_2: *matteobisi
@@ -310,10 +322,52 @@ days:
           integrata alla gestione del ciclo di vita delle infrastrutture e della
           sicurezza."
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: 2024-10-11T12:00+02:00
+        end_datetime: 2024-10-11T12:35+02:00
         speakers:
           speaker_1: *lucabolli
+
+      (Più-di)-una-vulnerabilità-su-mille-ce-la-fa:
+        item_type: talk
+        track: *track_1
+        talk_title: (Più di) una vulnerabilità su mille ce la fa
+        talk_description: La sicurezza delle tue applicazioni dipende interamente da SAST, DAST, WAF, VA, PT e altri acronimi fantasiosi? Forse non sei così protetto come credi. Grazie all'analisi di un esempio reale, in questa sessione imparerai come integrare dei controlli di sicurezza continui nella pipeline CI/CD e individuare le vulnerabilità nel codice che possono sfuggire ai tradizionali test di sicurezza. Inoltre, scoprirai come proteggere le applicazioni a runtime mentre stai rimediando alle vulnerabilità emerse o ancora sconosciute.
+        talk_video_url: ""
+        start_datetime: 2024-10-11T12:35+02:00
+        end_datetime: 2024-10-11T13:05+02:00
+        speakers:
+          speaker_1: *emiliotonelli
+
+      scaling-and-securing-12-million-websites-8:
+        item_type: talk
+        track: *track_1
+        talk_title: Scaling and Securing 12 Million Websites
+        talk_description: "In questo talk presentiamo le soluzioni implementate da Jimdo per servire in modo efficiente, sicuro e veloce oltre 12 milioni di siti web clienti. Utilizzando Amazon Web Services (AWS) e Cloudflare, abbiamo affrontato le sfide legate al caching e alla sicurezza, ottimizzando la nostra infrastruttura.
+        Il talk sarà strutturato in tre sezioni:
+        <ul>
+        <li>1. Obiettivi: esamineremo i requisiti per servire una vasta rete di siti 'Do It Yourself' di utenti non tech-savvy.
+        </li><li>2. Soluzioni tecniche e implementazione: una panoramica dettagliata delle tecnologie e strategie che abbiamo adottato, con particolare attenzione all'utilizzo di Cloudflare per implementare una soluzione di caching efficace e rafforzare la sicurezza.
+        </li><li>3. Risultati e Best Practices: i risultati ottenuti, quello che abbiamo imparato, e le best practices che possono essere applicate a contesti simili per aumentare scalabilità e sicurezza.
+        </li>
+        </ul>"
+        talk_video_url: ""
+        start_datetime: 2024-10-11T14:35+02:00
+        end_datetime: 2024-10-11T15:10+02:00
+        speakers:
+          speaker_1: *mariotrucco
+
+      finops-e-tag-strategy-su-aws-7:
+        item_type: talk
+        track: *track_1
+        talk_title: FinOps e Tag Strategy su AWS
+        talk_description: "Tag Strategy on Cloud: Come una buona Tag Strategy, può aiutare il monitoraggio applicativo, le strategie di FinOps, il Security Assessment e Risk Assessment. Rilasciare e definire la tag strategy in una infrastruttura cloud e mantenerla attraverso l'automazione e la definizione di owner."
+        talk_video_url: ""
+        start_datetime: 2024-10-11T15:10+02:00
+        end_datetime: 2024-10-11T15:45+02:00
+        speakers:
+          speaker_1: *francescodenardi
+          speaker_2: *gianlucamagnante
+
       vulnerability-management-lifecycle-in-devsecops-6:
         item_type: talk
         track: *track_1
@@ -343,38 +397,12 @@ days:
           della tua organizzazione all'interno di un ambiente DevSecOps,
           mantenendola sempre un passo avanti rispetto alle minacce emergenti.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: 2024-10-11T16:15+02:00
+        end_datetime: 2024-10-11T16:50+02:00
         speakers:
           speaker_1: *alessandrobraccio
-      finops-e-tag-strategy-su-aws-7:
-        item_type: talk
-        track: *track_1
-        talk_title: FinOps e Tag Strategy su AWS
-        talk_description: "Tag Strategy on Cloud: Come una buona Tag Strategy, può aiutare il monitoraggio applicativo, le strategie di FinOps, il Security Assessment e Risk Assessment. Rilasciare e definire la tag strategy in una infrastruttura cloud e mantenerla attraverso l'automazione e la definizione di owner."
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *francescodenardi
-          speaker_2: *gianlucamagnante
-      scaling-and-securing-12-million-websites-8:
-        item_type: talk
-        track: *track_1
-        talk_title: Scaling and Securing 12 Million Websites
-        talk_description: "In questo talk presentiamo le soluzioni implementate da Jimdo per servire in modo efficiente, sicuro e veloce oltre 12 milioni di siti web clienti. Utilizzando Amazon Web Services (AWS) e Cloudflare, abbiamo affrontato le sfide legate al caching e alla sicurezza, ottimizzando la nostra infrastruttura.
-        Il talk sarà strutturato in tre sezioni:
-        <ul>
-        <li>1. Obiettivi: esamineremo i requisiti per servire una vasta rete di siti 'Do It Yourself' di utenti non tech-savvy.
-        </li><li>2. Soluzioni tecniche e implementazione: una panoramica dettagliata delle tecnologie e strategie che abbiamo adottato, con particolare attenzione all'utilizzo di Cloudflare per implementare una soluzione di caching efficace e rafforzare la sicurezza.
-        </li><li>3. Risultati e Best Practices: i risultati ottenuti, quello che abbiamo imparato, e le best practices che possono essere applicate a contesti simili per aumentare scalabilità e sicurezza.
-        </li>
-        </ul>"
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *mariotrucco
+
+
       aigenops:-integrare-l'ai-generativa-nel-platform-engineering-per-regulated-software-9:
         item_type: talk
         track: *track_1
@@ -397,7 +425,7 @@ days:
           efficiente le segnalazioni critiche prioritarie e colmare le
           principali lacune nella copertura dei test.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: 2024-10-11T16:50+02:00
+        end_datetime: 2024-10-11T17:25+02:00
         speakers:
           speaker_1: *riccardosoro
