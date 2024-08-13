@@ -238,14 +238,17 @@ days:
       how-to-fail-your-sre-adoption-1:
         item_type: talk
         track: *track_1
-        talk_title: How to fail your SRE adoption
-        talk_description: "Where SRE can go wrong  I’ve been talking to customers re their SRE
-          adoption since 2019. Oftentimes, they struggled in their effort to
-          apply the Google methodology within their company. In this talk
-          Riccardo will first set an introduction to SRE, then try to explain
-          what failures patterns he's observed (partly contained in Enterprise
-          Roadmap to SRE report)   Topics: - What SRE is. - What SRE is not. -
-          Anti-patterns in SRE adoption - How to make it work for your company "
+        talk_title: Dove l'SRE può andare storto
+        talk_description: "Riccardo parla dell'adozione dell'SRE con clienti dal 2019.
+        Spesso, hanno difficoltà nell'applicare la metodologia di Google all'interno della loro azienda. In questo talk, Riccardo farà un'introduzione all'SRE e poi cercherà di spiegare quali modelli di fallimento ha osservato (in parte contenuti nel rapporto 'Enterprise Roadmap to SRE').
+<br>Argomenti trattati:
+<ul>
+<li>* Cos'è l'SRE. Una definizione chiara di Site Reliability Engineering e del suo ruolo nell'assicurare l'affidabilità dei sistemi.
+<li>* Cosa l'SRE NON è. Sfatare i miti comuni e le idee sbagliate sull'SRE, evidenziando cosa non ci si dovrebbe aspettare da questa disciplina.
+<li>* Anti-pattern nell'adozione dell'SRE. Identificare i comportamenti e le pratiche che possono portare al fallimento dell'implementazione dell'SRE all'interno di un'azienda.
+<li>* Come farlo funzionare per la tua azienda. Fornire consigli e strategie concrete su come adattare l'SRE alle esigenze specifiche della propria organizzazione e ottenere risultati positivi.
+</ul>
+Il tutto sarà corredato da esempi pratici ed esperienze vissute."
         talk_video_url: ""
         start_datetime: 2024-10-11T09:45+02:00
         end_datetime: 2024-10-11T10:20+02:00
