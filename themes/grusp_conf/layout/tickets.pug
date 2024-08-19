@@ -4,14 +4,23 @@ block content
   section(id="tickets_page")
     include includes/_breadcrumbs.pug
 
+    img(src="/img/media/tickets-hero.png" style="width: 100%")
+
     .container
       .inner
-        h1(role="heading" aria-level="1").title-is-1= page.title
+        h1(role="heading" aria-level="1") Acquista i biglietti per devsecopsday 2024
+        p devsecopsday è la conferenza italiana dedicata alle pratiche di sicurezza in ambito DevOps.
+        h2 Venerdì 11 Ottobre 2024 - Bologna, Hotel Savoia Regency.
+        p Nella stessa location, il giorno prima (Giovedì 10 Ottobre), si svolge la conferenza <a href='https://2024.containerday.it/'>containerday</a>
+        h3 Acquista ora il tuo biglietto prima che il prezzo aumenti!
+
+        p Tutti i prezzi dei biglietti sono indicati con <b>IVA esclusa</b>.
+
         tito-widget(event=site.data.defaults.conference.tito.event)
 
   //- imported components
-  include components/newsletter/newsletter
-  if(site.data.defaults.conference.sponsors_visible)
-    include components/sponsors/sponsors
-  if site.data.defaults.conference.community_partners
-    include components/community_partners/community_partners
+  //include components/newsletter/newsletter
+  //if(site.data.defaults.conference.sponsors_visible)
+  //  include components/sponsors/sponsors
+  //if site.data.defaults.conference.community_partners
+  //  include components/community_partners/community_partners
