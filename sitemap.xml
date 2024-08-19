@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2024.devsecopsday.it/welcome/cfp.html</loc>
+    <loc>https://2024.devsecopsday.it/welcome/about.html</loc>
     
     <lastmod>2024-08-19</lastmod>
     
@@ -16,6 +16,13 @@
   </url>
   
   <url>
+    <loc>https://2024.devsecopsday.it/welcome/scholarships.html</loc>
+    
+    <lastmod>2024-08-19</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://2024.devsecopsday.it/workshop/font_variabili.html</loc>
     
     <lastmod>2024-08-19</lastmod>
@@ -23,21 +30,14 @@
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/sponsor/index.html</loc>
+    <loc>https://2024.devsecopsday.it/welcome/where.html</loc>
     
     <lastmod>2024-08-19</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/tickets/index.html</loc>
-    
-    <lastmod>2024-08-19</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.devsecopsday.it/talks_speakers/index.html</loc>
+    <loc>https://2024.devsecopsday.it/welcome/safety.html</loc>
     
     <lastmod>2024-08-19</lastmod>
     
@@ -58,13 +58,6 @@
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/welcome/where.html</loc>
-    
-    <lastmod>2024-08-19</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://2024.devsecopsday.it/welcome/coc.html</loc>
     
     <lastmod>2024-08-19</lastmod>
@@ -72,21 +65,28 @@
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/welcome/about.html</loc>
+    <loc>https://2024.devsecopsday.it/welcome/cfp.html</loc>
     
     <lastmod>2024-08-19</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/welcome/scholarships.html</loc>
+    <loc>https://2024.devsecopsday.it/tickets/index.html</loc>
     
     <lastmod>2024-08-19</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/welcome/safety.html</loc>
+    <loc>https://2024.devsecopsday.it/talks_speakers/index.html</loc>
+    
+    <lastmod>2024-08-19</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.devsecopsday.it/sponsor/index.html</loc>
     
     <lastmod>2024-08-19</lastmod>
     
