@@ -1,0 +1,25 @@
+extends includes/layout.pug
+
+block content
+  section(id="tickets_page")
+    include includes/_breadcrumbs.pug
+
+    img(src="/img/media/tickets-hero.png" style="width: 100%")
+
+    .container
+      .inner
+        h2(role="heading" aria-level="1") Acquista i biglietti per devsecopsday 2024
+        p devsecops è la conferenza italiana dedicata alle pratiche di sicurezza in ambito DevOps.
+        h2 Venerdì 11 Ottobre 2024 - Bologna, Hotel Savoia Regency.
+        h3 Acquista ora il tuo biglietto <b>Early bird a <s>€ 149</s> <mark style="background-color:#FFAA00;">€79</mark> (IVA esclusa)</b> prima che il prezzo aumenti!
+
+        tito-widget(event=site.data.defaults.conference.tito.event releases="early-bird-evento-in-presenza")
+
+        p <a href='https://www.devsecopsday.it'>Scopri di più sull'evento</a>
+
+  //- imported components
+  //include components/newsletter/newsletter
+  //if(site.data.defaults.conference.sponsors_visible)
+  //  include components/sponsors/sponsors
+  //if site.data.defaults.conference.community_partners
+  //  include components/community_partners/community_partners
