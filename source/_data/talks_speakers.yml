@@ -161,6 +161,15 @@ speaker_11: &emiliotonelli
   speaker_instagram_url: ""
   speaker_mastodon_url: ""
 
+speaker_12: &serenasensini
+  speaker_in_speaker_lists: true
+  speaker_name: Serena Sensini
+  speaker_pic_filename: serena-sensini.png
+  speaker_role: MASTER OF CEREMONIES | Enterprise Architect @ Dedalus | Founder @ TheRedCode.it
+  speaker_bio:
+  speaker_twitter_url:
+  is_mc: true
+
 
 speakers:
   speaker_2: *alessandrabilardi
@@ -174,6 +183,7 @@ speakers:
   speaker_9: *riccardosoro
   speaker_10: *emiliotonelli
   speaker_11: *mariotrucco
+  speaker_12: *serenasensini
 
 
 tracks:
