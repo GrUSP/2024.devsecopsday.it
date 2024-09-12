@@ -37,14 +37,14 @@
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/tickets/index.html</loc>
+    <loc>https://2024.devsecopsday.it/tickets-in-presenza/index.html</loc>
     
     <lastmod>2024-09-12</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/tickets-in-presenza/index.html</loc>
+    <loc>https://2024.devsecopsday.it/tickets/index.html</loc>
     
     <lastmod>2024-09-12</lastmod>
     
@@ -58,14 +58,7 @@
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/welcome/where.html</loc>
-    
-    <lastmod>2024-09-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.devsecopsday.it/welcome/cfp.html</loc>
+    <loc>https://2024.devsecopsday.it/workshop/font_variabili.html</loc>
     
     <lastmod>2024-09-12</lastmod>
     
@@ -79,14 +72,14 @@
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/welcome/coc.html</loc>
+    <loc>https://2024.devsecopsday.it/welcome/cfp.html</loc>
     
     <lastmod>2024-09-12</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/welcome/scholarships.html</loc>
+    <loc>https://2024.devsecopsday.it/welcome/coc.html</loc>
     
     <lastmod>2024-09-12</lastmod>
     
@@ -100,14 +93,14 @@
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/workshop/font_variabili.html</loc>
+    <loc>https://2024.devsecopsday.it/welcome/scholarships.html</loc>
     
     <lastmod>2024-09-12</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.devsecopsday.it/404.html</loc>
+    <loc>https://2024.devsecopsday.it/welcome/where.html</loc>
     
     <lastmod>2024-09-12</lastmod>
     
@@ -115,6 +108,13 @@
   
   <url>
     <loc>https://2024.devsecopsday.it/2019/08/19/test/</loc>
+    
+    <lastmod>2024-09-12</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.devsecopsday.it/404.html</loc>
     
     <lastmod>2024-09-12</lastmod>
     
