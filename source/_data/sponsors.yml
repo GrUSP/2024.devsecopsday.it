@@ -46,10 +46,14 @@ bronze:
     logo_filename: "hashicorp.svg"
     site_url: "https://www.hashicorp.com/"
   sponsor3:
+    name: "jimdo"
+    logo_filename: "jimdo.svg"
+    site_url: "https://www.jimdo.com/it/"
+  sponsor4:
     name: "PostPickr"
     logo_filename: "postpickr.svg"
     site_url: "https://www.postpickr.com/"
-  sponsor4:
+  sponsor5:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/adesivi-personalizzati"
