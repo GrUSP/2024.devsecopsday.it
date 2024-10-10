@@ -59,23 +59,7 @@ speaker_4: &matteobisi
   speaker_linkedin_url: https://www.linkedin.com/in/matteobisi
   speaker_instagram_url: ""
   speaker_mastodon_url: ""
-speaker_5: &lucabolli
-  speaker_in_speaker_lists: true
-  speaker_name: Luca Bolli
-  speaker_pic_filename: luca-bolli.png
-  speaker_role: Staff Solution Engineer @ HashiCorp
-  speaker_bio: '​​Luca Bolli è Staff Solution Engineer in HashiCorp per il
-    territorio italiano. E’ un appassionato di tecnologia, di architetture
-    software, cloud native e di metodologia DevOps . Da sempre sostenitore del
-    concetto "less is more" quando non è incollato allo schermo di un computer
-    si dedica alle sue principali passioni: i suoi due figli, leggere, giocare
-    di ruolo, ascoltare musica e soprattutto incontrare i suoi amici. La prima
-    cosa che configura quando ha davanti un computer? Una bash funzionante,
-    perché senza riga di comando non potrebbe vivere!'
-  speaker_github_url: https://github.com/angryluke
-  speaker_linkedin_url: https://www.linkedin.com/in/luca-bolli/
-  speaker_instagram_url: ""
-  speaker_mastodon_url: ""
+
 speaker_6: &alessandrobraccio
   speaker_in_speaker_lists: true
   speaker_name: Alessandro Braccio
@@ -174,7 +158,6 @@ speaker_12: &serenasensini
 speakers:
   speaker_2: *alessandrabilardi
   speaker_4: *matteobisi
-  speaker_5: *lucabolli
   speaker_6: *alessandrobraccio
   speaker_3: *michelebuccarello
   speaker_1: *riccardocarlesso
@@ -301,44 +284,11 @@ Il tutto sarà corredato da esempi pratici ed esperienze vissute."
           repository di esempio ai partecipanti.
         talk_video_url: ""
         start_datetime: 2024-10-11T11:25+02:00
-        end_datetime: 2024-10-11T12:00+02:00
+        end_datetime: 2024-10-11T12:05+02:00
         speakers:
           speaker_1: *michelebuccarello
           speaker_2: *matteobisi
-      potenzia-il-tuo-pam-con-il-platform-engineering-5:
-        item_type: talk
-        track: *track_1
-        talk_title: Potenzia il tuo PAM con il Platform Engineering
-        talk_description: "Fra le mansioni principali dei platform teams c'è quella di creare
-          molteplici infrastrutture in modo sicuro e ripetibile. La crescita
-          aziendale è direttamente proporzionale al  numero dei team di sviluppo
-          e di supporto che gestiscono l'infrastruttura: per ogni applicazione o
-          servizio, per molteplici ambienti (prod, dev, test, ad esempio)  e
-          ovviamente ciascuno con differenti SLA e livelli di segregazione.
-          Questa crescita, che vediamo essere sempre più rapida, crea nuovi
-          requisiti per multi-tenancy, RBAC basato su infrastruttura,
-          crittografia, continua verifica di conformità, imposizione
-          automatizzata di policy e self-service che necessitano soprattutto di
-          automazione e controllo. Consideriamo per un momento un tipico
-          scenario: Fai parte di un team di sviluppo che si occupa di realizzare
-          un'applicazione o un servizio ospitato in un ambiente Kubernetes
-          (magari un servizio gestito) con i vari componenti che possono essere
-          distribuiti in uno o più spazi dei nomi. Come possiamo abilitare
-          l'accesso esterno sicuro al contenuto e ai componenti di questa
-          applicazione per scopi di debug o manutenzione senza compromettere la
-          sicurezza della piattaforma o dell'applicazione? Come possiamo
-          automatizzare l'accesso ai nuovi componenti che verranno sviluppati e
-          rilasciati durante il ciclo di vita dell'applicazione stessa?
-          Scopriamo insieme come la Piattaforma Cloud HashiCorp può potenziare
-          la soluzione di Privileged Access Management introducendo automazione,
-          controllo, sicurezza e dinamicità offrendo una soluzione totalmente
-          integrata alla gestione del ciclo di vita delle infrastrutture e della
-          sicurezza."
-        talk_video_url: ""
-        start_datetime: 2024-10-11T12:00+02:00
-        end_datetime: 2024-10-11T12:35+02:00
-        speakers:
-          speaker_1: *lucabolli
+
 
       (Più-di)-una-vulnerabilità-su-mille-ce-la-fa:
         item_type: talk
@@ -346,10 +296,24 @@ Il tutto sarà corredato da esempi pratici ed esperienze vissute."
         talk_title: (Più di) una vulnerabilità su mille ce la fa
         talk_description: La sicurezza delle tue applicazioni dipende interamente da SAST, DAST, WAF, VA, PT e altri acronimi fantasiosi? Forse non sei così protetto come credi. Grazie all'analisi di un esempio reale, in questa sessione imparerai come integrare dei controlli di sicurezza continui nella pipeline CI/CD e individuare le vulnerabilità nel codice che possono sfuggire ai tradizionali test di sicurezza. Inoltre, scoprirai come proteggere le applicazioni a runtime mentre stai rimediando alle vulnerabilità emerse o ancora sconosciute.
         talk_video_url: ""
+        start_datetime: 2024-10-11T12:05+02:00
+        end_datetime: 2024-10-11T12:35+02:00
+        speakers:
+          speaker_1: *emiliotonelli
+
+      panel:
+        item_type: talk
+        track: *track_1
+        talk_title: DevSecOps Stories
+        talk_description: "In questo panel, esploreremo le esperienze del mondo reale di vari/e professionisti/e nel campo del DevSecOps. Grazie a diverse esperienze professionali, i/le panelost condivideranno le loro storie, sfide e successi nell'integrare la sicurezza nel ciclo di vita del DevOps. Lo scopo? Puntiamo a scoprire lezioni preziose e pratiche innovative che possono ispirare altre persone nel loro percorso verso il mondo DevSecOps."
+        talk_video_url: ""
         start_datetime: 2024-10-11T12:35+02:00
         end_datetime: 2024-10-11T13:05+02:00
         speakers:
-          speaker_1: *emiliotonelli
+          speaker_1: *serenasensini
+          speaker_2: *michelebuccarello
+          speaker_3: *alessandrabilardi
+
 
       scaling-and-securing-12-million-websites-8:
         item_type: talk
